@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+ body{
+    background-image: linear-gradient(to bottom,#aeb6bf, #eee8d0);
+    background-attachment: fixed;
+    font-family: Segoe UI;
+}
+section{
+    width: 80vw;
+    margin: 5% auto;
+    padding-top: 40;
+    text-align: center;
+    line-height: 25px;
+}
+h1{
+    margin-bottom: 20px;
+}
+
+/* menu bar */
+ .navbar{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px gray;
+    box-shadow: 2px 2px 35px 2px #8a8a1d;
+    padding: 12px 28px;
+    font-weight: 700;
+    font-size: small;
+    align-items: center;
+    letter-spacing: 3px;
+}
+
+ .navbar i{
+    color:tomato;
+ }
+  .navbar .menu, .login-menu{
+    display: flex;
+}
+
+ .navbar ul{
+    list-style: none;
+}
+
+ .navbar .menu a, .login-menu li{
+    margin-right:38px;
+    text-decoration: none;
+    color:rgb(75, 75, 44)
+}
+ .navbar .login-menu{
+    display: flexs;
+}
+
+ .slope{
+    top:130px;
+    position: absolute;
+    right:40px;
+ }
