@@ -18,6 +18,7 @@ section{
     text-align: center;
     line-height: 25px;
 }
+
 h1{
     margin-bottom: 20px;
 }
@@ -34,6 +35,11 @@ h1{
     font-size: small;
     align-items: center;
     letter-spacing: 3px;
+    flex-direction: row;
+}
+
+.login-menu{
+    display: inline-flex;
 }
 
  .navbar i{
@@ -60,4 +66,7 @@ h1{
     top:130px;
     position: absolute;
     right:40px;
+    align-items:;
  }
+
+ 
